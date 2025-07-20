@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll Simulator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: antiquewhite;
+        }
+
+        .main{
+            width: 40vw;
+            height: 40vh;
+            margin-top: 25vh;
+            border-radius: 10px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+        }
+
+        input{
+            width: 25vw;
+            height: 5vh;
+        }
+
+        label{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Dice Roll Simulator</h1>
+        <form class="form">
+            <label>Enter No :</label><br><br>
+            <input type="number" id="no"><br><br>
+            <input type="submit">
+        </form>
+        <p class="Answer"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
