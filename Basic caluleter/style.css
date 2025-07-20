@@ -1,0 +1,61 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main{
+            width: 50vw;
+            height: 40vh;
+            border: 1px solid;
+            margin-top: 25vh;
+        }
+
+        .contener{
+            width: 50vh;
+            height: 10vh;
+            margin-top: 7vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        h1{
+            margin-left: 15vw;
+             margin-top: 4vh;
+        }
+        
+        input{
+            width: 12vw;
+            height: 5vh;
+            margin-left: 3.5vw;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        button{
+            margin-left: 10vw;
+        }
+
+        button{
+            width: 8vw;
+            height: 4vh;
+            background-color: azure;
+            margin-left: 5vw;
+        }
+        
+        .answer{
+            height: 5vh;
+            margin-top: 4vh;
+        }
+
+        p{
+            margin-left: 5vw;
+            font-size: 1.5rem;
+        }
